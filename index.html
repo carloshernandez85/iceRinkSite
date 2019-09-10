@@ -1,116 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- ION ICONS -->
-    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
     <!-- GOOGLE FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <!-- MY stylesheet -->
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
     <title>Fake Ice Rink</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container">
-            <nav>
-                <div class="nav-brand">
-                    <a href="index.html">
-                        <img src="/iceRinkSite/Images/hockeySkate.jpg" alt="">
-                    </a>
-                </div>
+      <div class="container">
+        <nav>
+          <div class="nav-brand">
+            <a href="index.html">
+              <img src="/iceRinkSite/Images/hockeySkate.jpg" alt="" />
+            </a>
+          </div>
 
-                <div class="menu-icons open"><i class="icon ion-md-menu"></i></div>
+          <div class="menu-icons open"><i class="icon ion-md-menu"></i></div>
 
-        </div>
+          <!-- </div> -->
 
-        <ul class="nav-list">
-            <div class="menu-icons close"><i class="icon ion-md-close"></i></div>
-
-
+          <ul class="nav-list">
+            <div class="menu-icons close">
+              <i class="icon ion-md-close"></i>
+            </div>
 
             <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
+              <a href="#" class="nav-link current">Home</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Locations</a>
+              <a href="#" class="nav-link">Locations</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Pricing</a>
+              <a href="#" class="nav-link">Pricing</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Test</a>
+              <a href="#" class="nav-link">Test</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
+              <a href="#" class="nav-link">About</a>
             </li>
-        </ul>
+          </ul>
         </nav>
-        </div>
+      </div>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container">
-                <div class="main-message">
-                    <h3>The great rink</h3>
-                    <h1>Skate!</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dicta, assumenda saepe deserunt
-                        ipsum
-                        recusandae voluptas laborum. Eum vero aut alias fuga tenetur. Enim, ut laborum? Harum
-                        repellendus
-                        quos saepe?
-                    </p>
-                    <div class="cta">
-                        <a href="" class="btn">Book now</a>
-                    </div>
-                </div>
+      <section class="hero">
+        <div class="container">
+          <div class="main-message">
+            <h3>The great rink</h3>
+            <h1>Skate!</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              dicta, assumenda saepe deserunt ipsum recusandae voluptas laborum.
+              Eum vero aut alias fuga tenetur. Enim, ut laborum? Harum
+              repellendus quos saepe?
+            </p>
+            <div class="cta">
+              <a href="" class="btn">Book now</a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section class="come-ice-skate">
-            <div class="container">
-                <div class="title-heading">
-                    <h3>Come and ice skate!</h3>
-                    <h1>There's nothing like it, bring the whole family</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <div class="activities-grid">
-                        <!-- grid item #1 -->
-                        <div class="activities-grid-item construct">
-                            <i class="icon ion-md"></i>
-                            <h1>Pro Shop</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        <!-- grid item #2 -->
-                        <div class="activities-grid-item hiking">
-                            <i class="icon ion-md-compass"></i>
-                            <h1>private coaching</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        <!-- grid item #3 -->
-                        <div class="activities-grid-item star-camping">
-                            <i class="icon ion-md-bonfire"></i>
-                            <h1>hockey practice</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-
-
-                    </div>
-                </div>
+      <section class="come-ice-skate">
+        <div class="container">
+          <div class="title-heading">
+            <h3>Come and ice skate!</h3>
+            <h1>There's nothing like it, bring the whole family</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <div class="activities-grid">
+              <!-- grid item #1 -->
+              <div class="activities-grid-item shop">
+                <i class="icon ion-md-basket"></i>
+                <h1>Pro Shop</h1>
+                <p>
+                  Come and get your skates sharpened - need a 3/8" or 1 1/4"?
+                  We've got you covered!
+                </p>
+              </div>
+              <!-- grid item #2 -->
+              <div class="activities-grid-item weights">
+                <i class="icon ion-md-fitness"></i>
+                <h1>Weight Center</h1>
+                <p>
+                  State of the art weight center features an olympic rack,
+                  overhead sled and even a steam room.
+                </p>
+              </div>
+              <!-- grid item #3 -->
+              <div class="activities-grid-item bar">
+                <i class="icon ion-md-beer"></i>
+                <h1>Upstairs bar</h1>
+                <p>
+                  After your men's league game (or even during your kid's
+                  practice) enjoy a cold one with the guys.
+                </p>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
+      <section class="testimonials">
+        <div class="container">
+          <div class="testimonial">
+            <div class="testimonial-text-box">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis pariatur quibusdam vitae, reiciendis voluptate, rerum,
+                iste alias quae beatae inventore odio repudiandae! Modi facere
+                perspiciatis fugit obcaecati reiciendis iusto necessitatibus?
+              </p>
+              <i class="icon ion-md-quote"></i>
+            </div>
+            <div class="testimonial-customer">
+              <img src="/iceRinkSite/Images/genericProfile.jpg" alt="" />
+              <h1>John Doe</h1>
+            </div>
+          </div>
+        </div>
+      </section>
 
-
-
-
+      <section class="begin-skating">
+        <div class="container">
+          <div class="title-heading">
+            <h3>Learn how to skate!</h3>
+            <h1>Have you always wanted to learn?</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="adventure grid">
+            <!-- Adventure grid item #1 -->
+            <div class="adventure-grid-item">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+                eveniet nihil corrupti officia voluptatibus, sequi doloribus
+                deserunt ad quia quisquam. A cumque delectus cupiditate
+                molestias vitae hic, accusamus in vero.
+              </p>
+            </div>
+            <div class="adventure-grid-item">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
+                reprehenderit nobis quos, labore sint mollitia molestiae totam,
+                numquam ipsam ab eius provident accusantium vitae sunt neque
+                recusandae laudantium nemo debitis.
+              </p>
+            </div>
+            <div class="adventure-grid-item">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+                est ipsa id dolor laudantium iste, facere doloremque,
+                asperiores, placeat aspernatur nesciunt perferendis ad dolores.
+                Earum numquam voluptatem nisi labore. Molestias.
+              </p>
+            </div>
+          </div>
+          <a class="btn" href="#">Book your ice time</a>
+        </div>
+      </section>
     </main>
-    <script type="text/javascript" src="/iceRinkSite/scripts.js"></script>
-</body>
 
+    <footer>
+      <p>
+        &copy; 2019 Fake website developer company | All rights reserved
+      </p>
+    </footer>
+    <script type="text/javascript" src="/iceRinkSite/scripts.js"></script>
+  </body>
 </html>
